@@ -69,16 +69,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**Je startniveau:** -Blauwe piste-
+**Je startniveau:** Blauwe piste
 
-**Je focus:** -helemaal responsive -
+**Je focus:** helemaal responsive 
 
-**Je opdracht:** -https://vegitalian.nl/-
+**Je opdracht:** https://vegitalian.nl/
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
+<img src="images/screenshot1epagina.png" width="375px" alt="omschrijving van de pagina">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
+<img src="images/screenshot2epagina.png" width="375px" alt="omschrijving van de pagina">
