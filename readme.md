@@ -38,7 +38,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+<b>Dit ging goed:</b> 
+De basis html van de pagina. 
+
+<b>Dit was lastig:</b>
+Flexbox  
+
+Vragen:
+1 Hoe zorg ik ervoor dat de menubalk van kleur veranderd wanneer je gaat scrollen?
+2 Hoe zorg je ervoor dat wanneer het scherm breder wordt het hamburgermenu veranderd in een normaal menu? (balk met alle menuitems zichtbaar) 
 
 **Screenshot(s):**
 
