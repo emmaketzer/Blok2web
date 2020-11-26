@@ -6,7 +6,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
+1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 2. -bron 2-
 3. -...-
 
@@ -39,18 +39,22 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 <b>Dit ging goed:</b> 
-De basis html van de pagina. 
+De basis html en css van de pagina opzetten.  
 
 <b>Dit was lastig:</b>
-Flexbox  
+Flexbox en positioneren vind ik nog een beetje lastig.  
 
 Vragen:
 1 Hoe zorg ik ervoor dat de menubalk van kleur veranderd wanneer je gaat scrollen?
+<br>
 2 Hoe zorg je ervoor dat wanneer het scherm breder wordt het hamburgermenu veranderd in een normaal menu? (balk met alle menuitems zichtbaar) 
 
 **Screenshot(s):**
-
--screenshot(s) van hoe ver je bent met korte uitleg-
+<img src="images/eersteversie1.png" width="375px" alt="screenshot1">
+<img src="images/eersteversie2.png" width="375px" alt="screenshot2">
+<img src="images/eersteversie3.png" width="375px" alt="screenshot3">
+<img src="images/eersteversie4.png" width="375px" alt="screenshot4">
+<img src="images/eersteversie5.png" width="375px" alt="screenshot5">
 
 ### Agenda voor meeting
 

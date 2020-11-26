@@ -85,6 +85,7 @@ ul{
 }
 
 .joinourteam{
+    display:flex;
     background-color: rgb(250,219,76);
 }
 
@@ -92,14 +93,17 @@ ul{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
+    background-color: rgb(253,242,218);
 }
 
-.instagram ul li{
-   
+.contactinfo{
+    text-align: center;
 }
 
 footer{
     background-color:rgb(250,219,76);
 }
+
+
 
 
