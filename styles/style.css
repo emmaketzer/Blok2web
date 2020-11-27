@@ -17,6 +17,7 @@ img{
     max-width: 100%;
     max-height:400px;
 }
+
 button{
     font-family: "Baron neue", sans-serif;
     color:white;
@@ -25,8 +26,9 @@ button{
     border-width:4px;
     border-style:solid;
     padding:15px;
-    
 }
+
+/* menubalk */
 
 nav ul{
   background-color:rgb(0,0,0,0.3);
@@ -44,6 +46,8 @@ nav ul li a{
   flex-grow:1;
 }
 
+/* eerste section */
+
 ul{
   list-style: none; 
   align-items: center;
@@ -56,19 +60,8 @@ ul{
 }
 
 .logobuttons li{
-        padding-bottom: 10px;
-
+    padding-bottom: 10px;
 }
-
-   
-}
-
-.logohome{
-   position:absolute; 
-   height: 80px;
-   justify-content: center;
-}
-
 
 .introtekst{
     padding:2px;
@@ -88,13 +81,20 @@ ul{
     display:flex;
     background-color: rgb(250,219,76);
 }
+.instagram{
+  list-style: none;    
+  background-color: rgb(253,242,218); 
+  text-align: center;
+  padding-bottom: 3em;
+}
 
 .instagram ul{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
-    background-color: rgb(253,242,218);
+    
 }
+
 
 .contactinfo{
     text-align: center;

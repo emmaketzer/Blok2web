@@ -45,9 +45,9 @@ De basis html en css van de pagina opzetten.
 Flexbox en positioneren vind ik nog een beetje lastig.  
 
 Vragen:
-1 Hoe zorg ik ervoor dat de menubalk van kleur veranderd wanneer je gaat scrollen?
+1 Hoe kun je het beste een achtergrondafbeelding aan een section toevoegen? In de eerste section moet een achtergrondafbeelding komen en deze moet doorlopen tot de bovenkant van de pagina. Hij moet dus onder de menubalk doorlopen.
 <br>
-2 Hoe zorg je ervoor dat wanneer het scherm breder wordt het hamburgermenu veranderd in een normaal menu? (balk met alle menuitems zichtbaar) 
+2 Hoe zorg ik ervoor dat de menubalk van kleur veranderd wanneer je gaat scrollen?
 
 **Screenshot(s):**
 <img src="images/eersteversie1.png" width="375px" alt="screenshot1">
