@@ -7,7 +7,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-2. -bron 2-
+2. https://www.youtube.com/watch?v=33IinMVJf-M&t=162s
 3. -...-
 
 
@@ -29,8 +29,35 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Voortgang 2 (week 5)
+### Stand van zaken
+<b>Dit ging goed:</b> 
+De basis html en css, het opzetten van de tweede pagina.
+Het verwerken 
 
--same as voortgang 1-
+<b>Dit was lastig:</b>
+Het responsive maken van de pagina's lukt nog niet helemaal. 
+Ook lukt het nog niet om een hamburgermenu toe te voegen. 
+
+<b>Vragen:</b>
+1 Aan de bovenkant van de pagina zit een kleine ruimte, maar ik heb geen idee hoe dit komt en hoe ik dit dus kan aanpassen. 
+<br>
+2 Wat is de makkelijkste manier om een hamburger menu toe te voegen?
+<br>
+3 Hoe zorg ik ervoor dat de menubalk van kleur veranderd wanneer je gaat scrollen?
+
+
+**Screenshot(s):**
+<img src="images/screenshot2.1.png" width="375px" alt="screenshot1">
+<img src="images/screenshot2.2.png" width="375px" alt="screenshot2">
+<img src="images/screenshot2.3.png" width="375px" alt="screenshot3">
+<img src="images/screenshot2.4.png" width="375px" alt="screenshot4">
+<img src="images/screenshot2.5.png" width="375px" alt="screenshot5">
+<img src="images/screenshot2.6.png" width="375px" alt="screenshot6">
+<img src="images/screenshot2.7.png" width="375px" alt="screenshot7">
+<img src="images/screenshot2.8.png" width="375px" alt="screenshot8">
+<img src="images/screenshot2.9.png" width="375px" alt="screenshot9">
+<img src="images/screenshot2.10.png" width="375px" alt="screenshot10">
+<img src="images/screenshot2.11.png" width="375px" alt="screenshot11">
 
 
 
