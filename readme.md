@@ -32,7 +32,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 <b>Dit ging goed:</b> 
 De basis html en css, het opzetten van de tweede pagina.
-Het verwerken 
+Ook ging het verwerken van de feedback goed. 
 
 <b>Dit was lastig:</b>
 Het responsive maken van de pagina's lukt nog niet helemaal. 
