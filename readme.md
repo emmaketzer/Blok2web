@@ -35,7 +35,7 @@ De basis html en css, het opzetten van de tweede pagina.
 Ook ging het verwerken van de feedback goed. 
 
 <b>Dit was lastig:</b>
-Het responsive maken van de pagina's lukt nog niet helemaal. 
+Javascript vind ik wat lastiger, daar ga ik volgende week mee aan de slag. 
 Ook lukt het nog niet om een hamburgermenu toe te voegen. 
 
 <b>Vragen:</b>
