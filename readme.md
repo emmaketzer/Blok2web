@@ -7,13 +7,21 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1.<b>Flexbox:</b> https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+<br>
 2.<b>Hamburger menu:</b> ljc-dev. (2020, 26 juli). Easy hamburger menu with JS. DEV. https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
+<br>
 3.<b>Scroll event:</b> Online Tutorials. (2020, 21 februari). Sticky Navigation Bar On Scroll Using Vanilla Javascript | Fixed Navbar on Scroll [Video].                      YouTube. https://www.youtube.com/watch?v=6HFpw5fcaD8
-4.<b>Iconen:</b> Business Person Emoji. (z.d.). [Illustratie]. emojirequest. https://www.emojirequest.com/r/BusinessPersonEmoji
-           iconscout. (z.d.). Take Away [Illustratie]. Iconscout. https://iconscout.com/icon/take-away-1851579
-           Freepik. (z.d.-a). Pizza free icon [Illustratie]. Freepik. https://www.flaticon.com/free-icon/pizza_3132693
+<br>
+4.<b>Iconen:</b> Business Person Emoji. (z.d.). [Illustratie]. emojirequest. https://www.emojirequest.com/r/BusinessPersonEmoji 
+<br>
+           iconscout. (z.d.). Take Away [Illustratie]. Iconscout. https://iconscout.com/icon/take-away-1851579 
+           <br>
+           Freepik. (z.d.-a). Pizza free icon [Illustratie]. Freepik. https://www.flaticon.com/free-icon/pizza_3132693 
+           <br>
 5.<b>Beelden:</b> https://vegitalian.nl/
+<br>
 6.<b>Animaties: </b>Powerpoint uit de les.
+<br>
 7. https://www.youtube.com/watch?v=33IinMVJf-M&t=162s
 
 

@@ -68,6 +68,7 @@ button:hover {
 
 /* menubalk */
 
+/* het hamburgericoontje */
 .hamicon {
 	border: none;
 	background-color: transparent;
@@ -80,6 +81,7 @@ button:hover {
 	margin-right: 1em;
 }
 
+/* class voor het hamburger icoontje wanneer het hamburgermenu wordt uitgeklapt */
 .showClose {
 	background-image: url(../images/ham_icon_hover_Tekengebied%201.png);
 }
@@ -96,7 +98,6 @@ button:hover {
 
 
 /*CLASS MENUBALK BIJ SCROLLEN*/
-
 .menubalk.scroll {
 	position: fixed;
 	top: 0;
@@ -107,6 +108,7 @@ button:hover {
 	transition: 1s;
 }
 
+/*styling voor de menuitems*/
 .menubalk ul {
 	list-style: none;
 	display: flex;
@@ -114,6 +116,8 @@ button:hover {
 	list-style: none;
 }
 
+/*Bron voor het hamburgermenu: ljc-dev. (2020, 26 juli). Easy hamburger menu with JS. DEV. https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0 */
+/*styling voor het hamburgermenu*/
 .hammenu {
 	position: fixed;
 	top: 0;
@@ -129,6 +133,7 @@ button:hover {
 	transition: transform 1s ease;
 }
 
+/*zorgt ervoor dat het hamburgermenu zichtbaar wordt op het scherm*/
 .showNav {
 	transform: translateX(0%);
 }
@@ -170,40 +175,23 @@ nav ul li a:hover {
 	transition: 1s;
 }
 
+/*styling van de social media icons in het hamburger menu*/
 .menuicons {
 	width: 40px;
 	cursor: pointer;
 }
 
 
-/* MENUBALK RESPONSIVE */
-
-@media screen and (max-width:900px) {
-	nav ul li a {
-		display: none;
-	}
-	.hamicon {
-		display: block;
-	}
-	.logomenu {
-		display: block;
-	}
-	.menuicons {
-		display: none;
-	}
-}
-
-
-/* eerste section */
+/* eerste section: banner met logo */
 
 .welkom {
 	background-image: url("../images/borden.jpg");
-	background-color: #cccccc;
 	background-size: cover;
 	background-position: center;
 	min-height: 30em;
 }
 
+/* buttons en het logo */
 ul {
 	list-style: none;
 	align-items: center;
@@ -226,6 +214,7 @@ ul {
 	max-width: 18em;
 }
 
+/* animatie van het logo */
 @keyframes logoVergroten {
 	0% {
 		transform: scale(1) rotate(360deg);
@@ -243,7 +232,7 @@ ul {
 }
 
 
-/* tweede section */
+/* tweede section:introtekst */
 
 .introtekst {
 	padding: 2em;
@@ -251,6 +240,7 @@ ul {
 	text-align: center;
 }
 
+/* andere styling voor de button */
 .anderebutton {
 	font-family: "DM Serif Display", sans-serif;
 	color: black;
@@ -275,7 +265,7 @@ ul {
 }
 
 
-/* derde section */
+/* derde section: the modern kitchen */
 
 .themodernkitchen {
 	display: flex;
@@ -303,11 +293,13 @@ ul {
 	opacity: 80%;
 }
 
+/* het pizza icoontje */
 .modernicon {
 	width: 12em;
 	cursor: pointer;
 }
 
+/* animatie voor het pizza icoontje */
 @keyframes pizzaRoll {
 	0% {
 		transform: rotate(0deg);
@@ -323,12 +315,8 @@ ul {
 	animation-duration: 1s;
 }
 
-.modernfood {
-	overflow: hidden;
-}
 
-
-/* vierde section */
+/* vierde section: take away & delivery */
 
 .takeaway {
 	display: flex;
@@ -339,6 +327,7 @@ ul {
 	text-align: center;
 }
 
+/* take away & delivery tekst */
 .takeawaydelivery {
 	padding-top: 35px;
 	padding-right: 65px;
@@ -354,6 +343,7 @@ ul {
 	cursor: pointer;
 }
 
+/* animatie voor het icoontje */
 @keyframes bounceEffect {
 	0% {
 		transform: scale(1);
@@ -373,7 +363,7 @@ ul {
 }
 
 
-/* vijfde section */
+/* vijfde section: join our team */
 
 .joinourteam {
 	display: flex;
@@ -386,21 +376,24 @@ ul {
 	width: 6em;
 }
 
+/* animatie voor het icoontje */
 @keyframes springen {
 	0% {
-		transform: translateY(0);
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(2);
 	}
 	100% {
-		transform: translateY(-5rem);
+		transform: scale(1);
 	}
 }
 
 .joinicon:hover {
 	animation-name: springen;
-	animation-duration: .8s;
+	animation-duration: 3s;
 	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-timing-function: cubic-bezier(0.125, 0.995, 1.000, 1);
+	
 }
 
 .jointekst {
@@ -409,6 +402,7 @@ ul {
 	font-size: 15px;
 }
 
+/* speciale styling voor het witte kopje */
 .jointekst h4 {
 	font-family: "Spartan", sans-serif;
 	font-size: 25px;
@@ -421,6 +415,7 @@ ul {
 	text-transform: uppercase;
 }
 
+/* Ook weer andere styling voor deze button */
 .joinbutton {
 	background-color: rgb(250, 219, 76);
 	text-align: center;
@@ -450,16 +445,18 @@ ul {
 	transition: 1s;
 }
 
+/* hover over de afbeelding met borden */
 .borden:hover {
 	opacity: 80%;
 }
 
+/* hover over de afbeelding met het ontbijt */
 .breakfast:hover {
 	opacity: 80%;
 }
 
 
-/* zesde section */
+/* zesde section: social media */
 
 .instagram {
 	list-style: none;
@@ -475,6 +472,7 @@ ul {
 	padding: 5em;
 }
 
+/* animatie voor het vergroten van de afbeeldingen uit de ul */
 @keyframes instaVergroten {
 	0% {
 		transform: scale(1);
@@ -491,13 +489,14 @@ ul {
 }
 
 
-/* contact */
+/* zevende section: contact */
 
 .contactinfo {
 	text-align: center;
 	padding: 2em;
 }
 
+/* ingevoegde Google Maps kaart */
 p.maps {
 	align-self: center;
 	margin-left: 5px;
@@ -567,6 +566,7 @@ h1 {
 	padding-left: 10em;
 }
 
+/* contact informatie */
 .contactinfo ul li {
 	text-align: left;
 	padding-bottom: .5em;
@@ -576,6 +576,7 @@ h1 {
 	padding-bottom: 2em;
 }
 
+/* contact formulier */
 .contactform {
 	padding-right: 10em;
 	padding-top: 2em;
