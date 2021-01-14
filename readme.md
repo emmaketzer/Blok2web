@@ -6,25 +6,53 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-2. https://www.youtube.com/watch?v=33IinMVJf-M&t=162s
-3. -...-
+1.<b>Flexbox:</b> https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+2.<b>Hamburger menu:</b> ljc-dev. (2020, 26 juli). Easy hamburger menu with JS. DEV. https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
+3.<b>Scroll event:</b> Online Tutorials. (2020, 21 februari). Sticky Navigation Bar On Scroll Using Vanilla Javascript | Fixed Navbar on Scroll [Video].                      YouTube. https://www.youtube.com/watch?v=6HFpw5fcaD8
+4.<b>Iconen:</b> Business Person Emoji. (z.d.). [Illustratie]. emojirequest. https://www.emojirequest.com/r/BusinessPersonEmoji
+           iconscout. (z.d.). Take Away [Illustratie]. Iconscout. https://iconscout.com/icon/take-away-1851579
+           Freepik. (z.d.-a). Pizza free icon [Illustratie]. Freepik. https://www.flaticon.com/free-icon/pizza_3132693
+5.<b>Beelden:</b> https://vegitalian.nl/
+6.<b>Animaties: </b>Powerpoint uit de les.
+7. https://www.youtube.com/watch?v=33IinMVJf-M&t=162s
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+<b>Wat ging goed en wat was lastig?</b> 
+<br>
+Wat ik tijdens deze opdracht vooral lastig vond, was het toevoegen van Javascript. Ik ben niet heel goed in Javascript, maar uiteindelijk is het mij wel gelukt om een inklapbaar hamburger menu toe te voegen. Ook is het gelukt om de menubalk van kleur te laten veranderen bij het scrollen. 
+
+Het toevoegen van animaties ging best goed en ik vond dit ook leuk om te doen.
+Het opzetten van de html en css ging over het algemeen ook erg goed! Sommige dingen hadden misschien wat beter gekund zoals de ingevoerde Google Maps kaart. Het is mij helaas niet gelukt om deze over de gehele breedte te krijgen. Toch ben ik erg tevreden met het eindresultaat en heb ik veel geleerd tijdens Frontend.
+
 
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
-
-
+<img src="images/eindresultaat1.png" width="375px" alt="eind1">
+<img src="images/eindresultaat2.png" width="375px" alt="eind2">
+<img src="images/eindresultaat3.png" width="375px" alt="eind3">
+<img src="images/eindresultaat4.png" width="375px" alt="eind4">
+<img src="images/eindresultaat5.png" width="375px" alt="eind5">
+<img src="images/eindresultaat6.png" width="375px" alt="eind6">
+<img src="images/eindresultaat7.png" width="375px" alt="eind7">
+<img src="images/eindresultaat8.png" width="375px" alt="eind8">
+<img src="images/eindresultaat9.png" width="375px" alt="eind9">
+<img src="images/eindresultaat10.png" width="375px" alt="eind10">
+<img src="images/eindresultaat12.png" width="375px" alt="eind11">
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+<b>Dit ging goed:</b> 
+Het toevoegen van animaties ging best goed. Ook het verder uitwerken van de tweede pagina ging goed. 
+
+<b>Dit was lastig:</b>
+Ik vind Javascript nog steeds erg lastig, maar dit gaat wel langzaam steeds beter.
+
+<b>Vragen:</b>
+1 Hoe zorg ik ervoor dat de menubalk van kleur veranderd wanneer je gaat scrollen?
 
 
 
@@ -109,7 +137,7 @@ Vragen:
 
 **Je startniveau:** Blauwe piste
 
-**Je focus:** helemaal responsive 
+**Je focus:** Extra aandacht voor de surfacelaag
 
 **Je opdracht:** https://vegitalian.nl/
 

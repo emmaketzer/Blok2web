@@ -1,271 +1,587 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing: border-box;
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 }
 
+
+/* ALGEMEEN */
+
 body {
-  font-family: "Avenir", sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: "DM Serif Display", sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 h2 {
-  font-family: "DM Serif Display", sans-serif;
+	font-family: "Spartan", sans-serif;
+	max-width: 35em;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 1.8em;
+	margin-bottom: 1em;
+}
+
+p {
+	max-width: 35em;
+	margin: 0 auto;
+	font-size: 15px;
+	line-height: 1.8em;
 }
 
 img {
-  max-width: 100%;
-  max-height: 400px;
+	max-width: 100%;
+	max-height: 400px;
+}
+
+.logomenu {
+	width: 230px;
 }
 
 button {
-  font-family: "DM Serif Display", sans-serif;
-  color: white;
-  text-transform: uppercase;
-  background-color: rgb(0,0,0,0.3);
-  border-color: rgb(250, 222, 100);
-  border-width: 4px;
-  border-style: solid;
-  padding: 15px;
-  transition: 1s;
+	font-family: "DM Serif Display", sans-serif;
+	color: white;
+	text-transform: uppercase;
+	background-color: rgb(0, 0, 0, 0.3);
+	border-color: rgb(250, 222, 100);
+	border-width: 4px;
+	border-style: solid;
+	padding: 15px;
+	transition: 1s;
+	cursor: pointer;
 }
 
 button:hover {
-  font-family: "DM Serif Display", sans-serif;
-  color: white;
-  text-transform: uppercase;
-  background-color: rgb(250, 222, 100);
-  border-color: rgb(250, 222, 100);
-  border-width: 4px;
-  border-style: solid;
-  padding: 15px;
+	font-family: "DM Serif Display", sans-serif;
+	color: white;
+	text-transform: uppercase;
+	background-color: rgb(250, 222, 100);
+	border-color: rgb(250, 222, 100);
+	border-width: 4px;
+	border-style: solid;
+	padding: 15px;
 }
+
 
 /* menubalk */
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
+
+.hamicon {
+	border: none;
+	background-color: transparent;
+	background-image: url(../images/ham_icon_Tekengebied%201.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 3em;
+	margin-left: 80em;
+	z-index: 1000;
+	margin-right: 1em;
 }
 
-nav ul {
-  background-color: rgb(0,0,0,0.3);
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+.showClose {
+	background-image: url(../images/ham_icon_hover_Tekengebied%201.png);
 }
 
-nav ul li a {
-  font-family: "DM Serif Display", sans-serif;
-  color: white;
-  text-decoration: none;
-  flex-grow: 1;
+.menubalk {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: rgb(0, 0, 0, 0.3);
+	z-index: 100;
+	height: 90px;
+	transition: 1s;
 }
+
+
+/*CLASS MENUBALK BIJ SCROLLEN*/
+
+.menubalk.scroll {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: rgb(250, 222, 100);
+	z-index: 100;
+	height: 90px;
+	transition: 1s;
+}
+
+.menubalk ul {
+	list-style: none;
+	display: flex;
+	padding: 1.5em;
+	list-style: none;
+}
+
+.hammenu {
+	position: fixed;
+	top: 0;
+	right: 0;
+	background: rgb(250, 222, 100);
+	width: 200px;
+	height: 100vh;
+	overflow: hidden;
+	color: white;
+	list-style: none;
+	text-decoration: none;
+	transform: translateY(-100%);
+	transition: transform 1s ease;
+}
+
+.showNav {
+	transform: translateX(0%);
+}
+
+.hamicon:hover {
+	outline: none;
+	background-color: transparent;
+	border: none;
+	background-image: url(../images/ham_icon_hover_Tekengebied%201.png);
+	transition: 1s;
+}
+
+.hamicon:focus {
+	outline: none;
+}
+
+.hammenu {
+	padding-top: 5em;
+}
+
+.hammenu li a {
+	font-family: "Spartan", sans-serif;
+	display: flex;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 2px 2px rgb(0, 0, 0, 0.3);
+	text-decoration: none;
+	padding-bottom: .5em;
+	padding-top: 3em;
+	cursor: pointer;
+}
+
+nav ul li a:hover {
+	font-family: "Spartan", sans-serif;
+	font-size: 17px;
+	text-decoration: underline;
+	flex-grow: 1;
+	transition: 1s;
+}
+
+.menuicons {
+	width: 40px;
+	cursor: pointer;
+}
+
+
+/* MENUBALK RESPONSIVE */
+
+@media screen and (max-width:900px) {
+	nav ul li a {
+		display: none;
+	}
+	.hamicon {
+		display: block;
+	}
+	.logomenu {
+		display: block;
+	}
+	.menuicons {
+		display: none;
+	}
+}
+
 
 /* eerste section */
 
 .welkom {
-  background-image: url("../images/borden.jpg");
-  background-color: #cccccc;
-  background-size: cover;
-  background-position: center;
-  min-height: 30em;
+	background-image: url("../images/borden.jpg");
+	background-color: #cccccc;
+	background-size: cover;
+	background-position: center;
+	min-height: 30em;
 }
 
 ul {
-  list-style: none;
-  align-items: center;
+	list-style: none;
+	align-items: center;
+	margin: 0;
 }
 
 .logobuttons {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 20em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 10em;
+	cursor: pointer;
 }
 
 .logobuttons li {
-  padding-bottom: 10px;
+	padding-bottom: 1em;
 }
+
+.logogroot {
+	max-width: 18em;
+}
+
+@keyframes logoVergroten {
+	0% {
+		transform: scale(1) rotate(360deg);
+	}
+	100% {
+		transform: scale(2);
+	}
+}
+
+.logogroot:hover {
+	animation-name: logoVergroten;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
 
 /* tweede section */
 
 .introtekst {
-  padding: 2em;
-  background-color: rgb(253,242,218);
-  text-align: center;
+	padding: 2em;
+	background-color: rgb(253, 242, 218);
+	text-align: center;
 }
 
 .anderebutton {
-  font-family: "DM Serif Display", sans-serif;
-  color: black;
-  text-transform: uppercase;
-  background-color: rgb(0,0,0,0.0);
-  border-color: rgb(250, 222, 100);
-  border-width: 4px;
-  border-style: solid;
-  padding: 15px;
+	font-family: "DM Serif Display", sans-serif;
+	color: black;
+	text-transform: uppercase;
+	background-color: rgb(0, 0, 0, 0.0);
+	border-color: rgb(250, 222, 100);
+	border-width: 4px;
+	border-style: solid;
+	margin-top: 1em;
 }
 
 .anderebutton:hover {
-  font-family: "DM Serif Display", sans-serif;
-  color: black;
-  text-transform: uppercase;
-  background-color: rgb(250, 222, 100);
-  border-color: rgb(250, 222, 100);
-  border-width: 4px;
-  border-style: solid;
-  padding: 15px;
-  transition: 1s;
+	font-family: "DM Serif Display", sans-serif;
+	color: black;
+	text-transform: uppercase;
+	background-color: rgb(250, 222, 100);
+	border-color: rgb(250, 222, 100);
+	border-width: 4px;
+	border-style: solid;
+	padding: 15px;
+	transition: 1s;
 }
+
 
 /* derde section */
 
 .themodernkitchen {
-  background-color: rgb(122,35,26);
-  color: white;
-  text-align: center;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	background-color: rgb(122, 35, 26);
+	color: white;
+	text-align: center;
 }
 
 .modernkitchentekst {
-  padding: 2em;
-  height: 25em;
+	padding: 2em;
+	height: 25em;
+	flex-grow: 1;
+	flex-basis: 50%;
 }
+
+.modernkitchenimage {
+	display: flex;
+	width: 50;
+	overflow: hidden;
+}
+
+.modernkitchenimage:hover {
+	opacity: 80%;
+}
+
+.modernicon {
+	width: 12em;
+	cursor: pointer;
+}
+
+@keyframes pizzaRoll {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.modernicon:hover {
+	animation-name: pizzaRoll;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+}
+
+.modernfood {
+	overflow: hidden;
+}
+
 
 /* vierde section */
 
 .takeaway {
-  background-color: rgb(253,242,218);
-  color: black;
-  text-align: center;
-  padding: 2em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: rgb(253, 242, 218);
+	color: black;
+	text-align: center;
 }
+
+.takeawaydelivery {
+	padding-top: 35px;
+	padding-right: 65px;
+	overflow: hidden;
+}
+
+.takeawayimage:hover {
+	opacity: 80%;
+}
+
+.takeawayicon {
+	width: 12em;
+	cursor: pointer;
+}
+
+@keyframes bounceEffect {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.3);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.takeawayicon:hover {
+	animation-name: bounceEffect;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
 
 /* vijfde section */
 
 .joinourteam {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  background-color: rgb(250,219,76);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: rgb(250, 219, 76);
+}
+
+.joinicon {
+	width: 6em;
+}
+
+@keyframes springen {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-5rem);
+	}
+}
+
+.joinicon:hover {
+	animation-name: springen;
+	animation-duration: .8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: cubic-bezier(0.125, 0.995, 1.000, 1);
+}
+
+.jointekst {
+	max-width: 20em;
+	text-align: center;
+	font-size: 15px;
+}
+
+.jointekst h4 {
+	font-family: "Spartan", sans-serif;
+	font-size: 25px;
+	max-width: 35em;
+	margin: 0 auto;
+	padding-top: 2em;
+	padding-bottom: 4em;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.joinbutton {
+	background-color: rgb(250, 219, 76);
+	text-align: center;
+	padding-bottom: 1em;
 }
 
 .weeranderebutton {
-  font-family: "DM Serif Display", sans-serif;
-  color: white;
-  text-transform: uppercase;
-  background-color: rgb(0,0,0,0.0);
-  border-color: white;
-  border-width: 4px;
-  border-style: solid;
-  padding: 15px;
+	font-family: "DM Serif Display", sans-serif;
+	color: white;
+	text-transform: uppercase;
+	background-color: rgb(0, 0, 0, 0.0);
+	border-color: white;
+	border-width: 4px;
+	border-style: solid;
+	padding: 15px;
 }
 
 .weeranderebutton:hover {
-  font-family: "DM Serif Display", sans-serif;
-  color: black;
-  text-transform: uppercase;
-  background-color: white;
-  border-color: white;
-  border-width: 4px;
-  border-style: solid;
-  padding: 15px;
-  transition: 1s;
+	font-family: "DM Serif Display", sans-serif;
+	color: black;
+	text-transform: uppercase;
+	background-color: white;
+	border-color: white;
+	border-width: 4px;
+	border-style: solid;
+	padding: 15px;
+	transition: 1s;
 }
+
+.borden:hover {
+	opacity: 80%;
+}
+
+.breakfast:hover {
+	opacity: 80%;
+}
+
 
 /* zesde section */
 
 .instagram {
-  list-style: none;
-  background-color: rgb(253,242,218);
-  text-align: center;
-  padding-bottom: 3em;
+	list-style: none;
+	background-color: rgb(253, 242, 218);
+	text-align: center;
+	padding-bottom: 3em;
 }
 
 .instagram ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 5em;
 }
+
+@keyframes instaVergroten {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.2);
+	}
+}
+
+.instagram ul li:hover {
+	animation-name: instaVergroten;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+}
+
 
 /* contact */
 
 .contactinfo {
-  text-align: center;
-  padding: 2em;
+	text-align: center;
+	padding: 2em;
 }
+
+p.maps {
+	align-self: center;
+	margin-left: 5px;
+	margin-right: 30px;
+	padding-top: 10px;
+	margin-bottom: -10px;
+}
+
 
 /* footer */
 
 footer {
-  background-color: rgb(250,219,76);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: rgb(250, 219, 76);
+	padding-top: 2em;
+	padding-bottom: 6em;
+	padding-right: 3em;
+}
+
+.logofooter {
+	max-width: 12em;
+	padding-left: 2em;
+	padding-top: 2em;
+}
+
+.footericons {
+	max-width: 2em;
 }
 
 
-/* TWEEDE PAGINA - VEGITALIAN BOXES */
-.boxenhome {
-  background-image: url(../images/boxen.jpg);
-  background-size: cover;
-  background-position: center;
-  padding-left: 1em;
-  padding-top: 25em;
-  margin-top: -10em;
+/* TWEEDE PAGINA - CONTACT */
+
+.contact {
+	background-image: url(../images/contact_headerimg.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-left: 1em;
+	padding-top: 30em;
+	margin-top: -10em;
+	margin-bottom:
 }
 
 h1 {
-  font-family: "DM Serif Display", sans-serif;
-  font-size: 35px;
-  text-align: left;
-}
-
-h4 {
-  font-family: "DM Serif Display", sans-serif;
-  text-align: left;
-  color: rgb(68,68,68);
-}
-
-.rodeh1 {
-  color: rgb(122,35,26);
-  text-align: left;
+	font-family: "Spartan", sans-serif;
+	text-transform: uppercase;
+	font-size: 22px;
+	text-align: left;
+	padding-left: 1.5em;
 }
 
 .witteh1 {
-  color: white;
-  margin-top: -2em;
-  padding-left: 1em;
+	font-family: "DM Serif Display", sans-serif;
+	text-transform: none;
+	color: white;
+	padding-left: 4em;
+	padding-bottom: 1em;
+	font-size: 50px;
 }
 
-.centeredh1 {
-  font-family: "DM Serif Display", sans-serif;
-  font-size: 35px;
-  text-align: center;
+.flexcontact {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: left;
+	padding-left: 10em;
 }
 
-.groteletters {
-  font-family: "DM Serif Display", sans-serif;
-  font-size: 30px;
-  text-align: left;
+.contactinfo ul li {
+	text-align: left;
+	padding-bottom: .5em;
 }
 
-.boxlijst {
-  font-family: "DM Serif Display", sans-serif;
-  color: rgb(68,68,68);
-  text-align: left;
-  padding-left: .1em;
-  list-style-type: square;
+.contactinfo ul li.break {
+	padding-bottom: 2em;
 }
 
-.anderepstijl {
-  font-family: "DM Serif Display", sans-serif;
-  color: rgb(68,68,68);
-  text-align: left;
+.contactform {
+	padding-right: 10em;
+	padding-top: 2em;
 }
 
-.alleboxen {
-  padding: 2em;
-  background-color: rgb(253,242,218);
-  text-align: center;
+.contactform input {
+	height: 3em;
+	margin-bottom: 1.5em;
 }
-
