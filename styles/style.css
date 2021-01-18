@@ -10,7 +10,7 @@
 /* ALGEMEEN */
 
 body {
-    font-family: "DM Serif Display", sans-serif;
+	font-family: "DM Serif Display", sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -37,7 +37,7 @@ img {
 	max-height: 400px;
 }
 
-.logomenu {
+.menubalk img {
 	width: 230px;
 }
 
@@ -68,7 +68,9 @@ button:hover {
 
 /* menubalk */
 
+
 /* het hamburgericoontje */
+
 .hamicon {
 	border: none;
 	background-color: transparent;
@@ -81,7 +83,9 @@ button:hover {
 	margin-right: 1em;
 }
 
+
 /* class voor het hamburger icoontje wanneer het hamburgermenu wordt uitgeklapt */
+
 .showClose {
 	background-image: url(../images/ham_icon_hover_Tekengebied%201.png);
 }
@@ -98,6 +102,7 @@ button:hover {
 
 
 /*CLASS MENUBALK BIJ SCROLLEN*/
+
 .menubalk.scroll {
 	position: fixed;
 	top: 0;
@@ -108,7 +113,9 @@ button:hover {
 	transition: 1s;
 }
 
+
 /*styling voor de menuitems*/
+
 .menubalk ul {
 	list-style: none;
 	display: flex;
@@ -116,8 +123,12 @@ button:hover {
 	list-style: none;
 }
 
+
 /*Bron voor het hamburgermenu: ljc-dev. (2020, 26 juli). Easy hamburger menu with JS. DEV. https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0 */
+
+
 /*styling voor het hamburgermenu*/
+
 .hammenu {
 	position: fixed;
 	top: 0;
@@ -133,7 +144,9 @@ button:hover {
 	transition: transform 1s ease;
 }
 
+
 /*zorgt ervoor dat het hamburgermenu zichtbaar wordt op het scherm*/
+
 .showNav {
 	transform: translateX(0%);
 }
@@ -175,8 +188,10 @@ nav ul li a:hover {
 	transition: 1s;
 }
 
+
 /*styling van de social media icons in het hamburger menu*/
-.menuicons {
+
+.hammenu li img {
 	width: 40px;
 	cursor: pointer;
 }
@@ -191,30 +206,35 @@ nav ul li a:hover {
 	min-height: 30em;
 }
 
+
 /* buttons en het logo */
+
 ul {
 	list-style: none;
 	align-items: center;
 	margin: 0;
 }
 
-.logobuttons {
+.welkom ul {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	padding-top: 10em;
+	padding-bottom: 1em;
 	cursor: pointer;
 }
 
-.logobuttons li {
+.welkom li {
 	padding-bottom: 1em;
 }
 
-.logogroot {
+.welkom img {
 	max-width: 18em;
 }
 
+
 /* animatie van het logo */
+
 @keyframes logoVergroten {
 	0% {
 		transform: scale(1) rotate(360deg);
@@ -224,7 +244,7 @@ ul {
 	}
 }
 
-.logogroot:hover {
+.welkom img:hover {
 	animation-name: logoVergroten;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
@@ -240,8 +260,11 @@ ul {
 	text-align: center;
 }
 
-/* andere styling voor de button */
-.anderebutton {
+.introtekst p {
+	padding-bottom: 1em;
+}
+
+.introtekst button {
 	font-family: "DM Serif Display", sans-serif;
 	color: black;
 	text-transform: uppercase;
@@ -252,7 +275,7 @@ ul {
 	margin-top: 1em;
 }
 
-.anderebutton:hover {
+.introtekst button:hover {
 	font-family: "DM Serif Display", sans-serif;
 	color: black;
 	text-transform: uppercase;
@@ -283,23 +306,28 @@ ul {
 	flex-basis: 50%;
 }
 
-.modernkitchenimage {
+.themodernkitchen img {
 	display: flex;
 	width: 50;
 	overflow: hidden;
 }
 
-.modernkitchenimage:hover {
+.themodernkitchen img:hover {
 	opacity: 80%;
 }
 
+
 /* het pizza icoontje */
-.modernicon {
+
+.modernkitchentekst img {
 	width: 12em;
+	margin: 0 auto;
 	cursor: pointer;
 }
 
+
 /* animatie voor het pizza icoontje */
+
 @keyframes pizzaRoll {
 	0% {
 		transform: rotate(0deg);
@@ -309,7 +337,7 @@ ul {
 	}
 }
 
-.modernicon:hover {
+.modernkitchentekst img:hover {
 	animation-name: pizzaRoll;
 	animation-iteration-count: infinite;
 	animation-duration: 1s;
@@ -327,23 +355,27 @@ ul {
 	text-align: center;
 }
 
+
 /* take away & delivery tekst */
-.takeawaydelivery {
+
+.takeawaytekst {
 	padding-top: 35px;
 	padding-right: 65px;
 	overflow: hidden;
 }
 
-.takeawayimage:hover {
+.takeaway img:hover {
 	opacity: 80%;
 }
 
-.takeawayicon {
+.takeawaytekst img {
 	width: 12em;
 	cursor: pointer;
 }
 
+
 /* animatie voor het icoontje */
+
 @keyframes bounceEffect {
 	0% {
 		transform: scale(1);
@@ -356,7 +388,7 @@ ul {
 	}
 }
 
-.takeawayicon:hover {
+.takeawaytekst img:hover {
 	animation-name: bounceEffect;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
@@ -372,11 +404,13 @@ ul {
 	background-color: rgb(250, 219, 76);
 }
 
-.joinicon {
+.jointekst img {
 	width: 6em;
 }
 
+
 /* animatie voor het icoontje */
+
 @keyframes springen {
 	0% {
 		transform: scale(1);
@@ -389,11 +423,10 @@ ul {
 	}
 }
 
-.joinicon:hover {
+.jointekst img:hover {
 	animation-name: springen;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
-	
 }
 
 .jointekst {
@@ -402,7 +435,9 @@ ul {
 	font-size: 15px;
 }
 
+
 /* speciale styling voor het witte kopje */
+
 .jointekst h4 {
 	font-family: "Spartan", sans-serif;
 	font-size: 25px;
@@ -415,14 +450,16 @@ ul {
 	text-transform: uppercase;
 }
 
+
 /* Ook weer andere styling voor deze button */
-.joinbutton {
+
+.joinourteam2 {
 	background-color: rgb(250, 219, 76);
 	text-align: center;
 	padding-bottom: 1em;
 }
 
-.weeranderebutton {
+.joinourteam2 button {
 	font-family: "DM Serif Display", sans-serif;
 	color: white;
 	text-transform: uppercase;
@@ -433,7 +470,7 @@ ul {
 	padding: 15px;
 }
 
-.weeranderebutton:hover {
+.joinourteam2 button:hover {
 	font-family: "DM Serif Display", sans-serif;
 	color: black;
 	text-transform: uppercase;
@@ -445,13 +482,17 @@ ul {
 	transition: 1s;
 }
 
+
 /* hover over de afbeelding met borden */
-.borden:hover {
+
+.joinourteam img:hover {
 	opacity: 80%;
 }
 
+
 /* hover over de afbeelding met het ontbijt */
-.breakfast:hover {
+
+.joinourteam img:hover {
 	opacity: 80%;
 }
 
@@ -472,7 +513,9 @@ ul {
 	padding: 5em;
 }
 
+
 /* animatie voor het vergroten van de afbeeldingen uit de ul */
+
 @keyframes instaVergroten {
 	0% {
 		transform: scale(1);
@@ -488,21 +531,67 @@ ul {
 	animation-iteration-count: 1;
 }
 
+.instagram button {
+	font-family: "DM Serif Display", sans-serif;
+	color: black;
+	text-transform: uppercase;
+	background-color: rgb(0, 0, 0, 0.0);
+	border-color: rgb(250, 222, 100);
+	border-width: 4px;
+	border-style: solid;
+	margin-top: 1em;
+}
+
+.instagram button:hover {
+	font-family: "DM Serif Display", sans-serif;
+	color: black;
+	text-transform: uppercase;
+	background-color: rgb(250, 222, 100);
+	border-color: rgb(250, 222, 100);
+	border-width: 4px;
+	border-style: solid;
+	padding: 15px;
+	transition: 1s;
+}
+
 
 /* zevende section: contact */
 
 .contactinfo {
 	text-align: center;
 	padding: 2em;
+	padding-bottom: 3em;
 }
 
+.contactinfo button {
+	font-family: "DM Serif Display", sans-serif;
+	color: black;
+	text-transform: uppercase;
+	background-color: rgb(0, 0, 0, 0.0);
+	border-color: rgb(250, 222, 100);
+	border-width: 4px;
+	border-style: solid;
+	margin-top: 1em;
+}
+
+.contactinfo button:hover {
+	font-family: "DM Serif Display", sans-serif;
+	color: black;
+	text-transform: uppercase;
+	background-color: rgb(250, 222, 100);
+	border-color: rgb(250, 222, 100);
+	border-width: 4px;
+	border-style: solid;
+	padding: 15px;
+	transition: 1s;
+}
+
+
 /* ingevoegde Google Maps kaart */
-p.maps {
-	align-self: center;
-	margin-left: 5px;
-	margin-right: 30px;
-	padding-top: 10px;
-	margin-bottom: -10px;
+
+.contactinfo iframe {
+	width: 100%;
+	padding-top: 3em;
 }
 
 
@@ -524,7 +613,7 @@ footer {
 	padding-top: 2em;
 }
 
-.footericons {
+footer ul li img {
 	max-width: 2em;
 }
 
@@ -541,15 +630,7 @@ footer {
 	margin-bottom:
 }
 
-h1 {
-	font-family: "Spartan", sans-serif;
-	text-transform: uppercase;
-	font-size: 22px;
-	text-align: left;
-	padding-left: 1.5em;
-}
-
-.witteh1 {
+.contact h1 {
 	font-family: "DM Serif Display", sans-serif;
 	text-transform: none;
 	color: white;
@@ -566,7 +647,17 @@ h1 {
 	padding-left: 10em;
 }
 
+.flexcontact h2 {
+	font-family: "Spartan", sans-serif;
+	text-transform: uppercase;
+	font-size: 22px;
+	text-align: left;
+	padding-left: 1.5em;
+}
+
+
 /* contact informatie */
+
 .contactinfo ul li {
 	text-align: left;
 	padding-bottom: .5em;
@@ -576,10 +667,22 @@ h1 {
 	padding-bottom: 2em;
 }
 
+
 /* contact formulier */
+
 .contactform {
 	padding-right: 10em;
 	padding-top: 2em;
+}
+
+.contactform h3 {
+	font-family: "DM Serif Display", sans-serif;
+	font-size: 16px;
+}
+
+.contactform button {
+	display: block;
+	margin-bottom: 5em;
 }
 
 .contactform input {
